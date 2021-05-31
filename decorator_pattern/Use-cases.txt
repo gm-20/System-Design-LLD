@@ -1,0 +1,23 @@
+*Its one of the Structural Design pattern.
+
+*Used to modify functionality of an Object during run-time.
+*Note:
+At the same time other instances of the same class will not be affected by this, so individual object gets
+the modified behaviorAt the same time other instances of the same class will not be affected by this,
+so individual object gets the modified behavior.
+
+*Based on Composition[HAS A RELATIONSHIP]
+
+*Things Required:
+1.Component Interface/Abstract Class 
+2.Component Implementation --> implements Component Interface/Abstract Class
+3.Decorator class --> implements Component Interface/Abstract Class [Uses HAS A RELATIONSHIP with Component Interface/Abstract Class]
+4.Concrete Decorator --> extends Decorator class
+
+*Use-cases
+1.Provides more flexibility and modification abilities during runtime. 
+
+
+*Examples
+1.Used in Java IO classes , such as FileReader,BufferedReader 
+

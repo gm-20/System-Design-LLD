@@ -1,0 +1,24 @@
+*This is type of Creational Design => Used for new Object Creation,from alraedy existing Object.
+
+*The object that needs to be cloned should have:
+1.Implements Cloneable
+2.Override clone() --> Can be Deep copying or Shallow copying
+
+*Shallow Copy
+This is a result of the default cloning functionality provided by the Object.clone() method if the class
+has non-primitive data type members as well.
+In the case of Shallow Copy, the cloned object also refers to the same object to which the original object
+refers as only the object references get copied and not the referred objects.
+
+*Deep Copy
+We need to override the clone() method for the classes having non-primitive type members to achieve Deep Copy
+as it requires the member objects to be cloned as well, which is not done by the default cloning mechanism.
+
+
+*Use-cases:
+1.It is used when the Object creation is a costly affair and requires a lot of time 
+and resources and you have a similar object already existing.
+2.Provides a mechanism to copy the original object to a new object and then modify it according to our needs.
+3.For ex: If i already have an Object which contains data fetched from database,
+Now I need to modify data , but again fetching it from database is expensive,
+So will copy original Obj to new Obj.

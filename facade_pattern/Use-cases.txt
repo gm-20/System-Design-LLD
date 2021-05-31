@@ -1,0 +1,15 @@
+*It is one of the Structural design pattern.
+
+*Facade design pattern is used to help client applications to easily interact with the system.
+
+*It provides a union Interface/Classes[Wrapper Interface] for a set of Interfaces/Classes in a sub-system.
+i.e Combines multiple classes and forms a Facade Class containing implementation of sub classes in organised
+manner using Switch cases and Enum classes frequently.
+
+
+Use-cases:
+1.Its more like a helper for Client application.
+2.It should be applied for similar kind of Interfaces to reduce the complexity for Client application
+
+Examples:
+1.JDBC Driver Manager class to get the database connection.

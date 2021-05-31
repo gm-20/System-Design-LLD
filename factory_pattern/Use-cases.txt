@@ -1,0 +1,23 @@
+*This is type of Creational Design => Used for Object Creation.
+
+*It is used when we have a superclass with multiple sub-classes and based on input,
+we need to return one of the sub-class.
+
+*This pattern takes out the responsibility of the instantiation of a class from the client
+program to the factory class.
+
+
+*To implement this we have certain requirement:
+1.A super class that may be normal class , abstract class or Interface.
+2.Multiple sub-classes
+3.FactoryBuider class to initialise sub-class object based on requirement.
+
+
+Use cases:
+1.It provides abstraction between implementation and client classes through inheritance.
+2.It makes our code more robust, less coupled and easy to extend.
+
+Examples:
+*java.util.Calendar, ResourceBundle and NumberFormat getInstance() methods uses Factory pattern.
+
+*valueOf() method in wrapper classes like Boolean, Integer etc.

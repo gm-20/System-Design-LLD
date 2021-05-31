@@ -1,0 +1,17 @@
+*It's a structural design pattern =>  Used to organise Classes/Interface/Objects.
+
+*Its used so that two unrelated interfaces/Classes can work together with the help of a Adapter class.
+
+*Dig : https://app.diagrams.net/#G1giI3gQzfvyAkC1PeODbrHCKYCyYPhY5K
+
+*The class/interface who WANTS functionality from some other class/interface gets implemented by AdapterClass.
+
+*And in Adapter class we define object whose methods will be used by demanding(which wants functionality form
+other class) class/interface.
+
+*Examples:
+1.java.util.Arrays#asList()
+2.java.io.InputStreamReader(InputStream) (returns a Reader)
+3.java.io.OutputStreamWriter(OutputStream) (returns a Writer)
+
+Ref: https://www.geeksforgeeks.org/adapter-pattern/?ref=lbp

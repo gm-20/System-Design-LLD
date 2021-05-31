@@ -1,0 +1,20 @@
+*It is a type of Creational design pattern i.e. deal with object creation.
+
+*Only single object can be created of this class.
+
+*Private : Constructor
+*Private and static : InstanceObject
+*public and static : getInstance()
+
+
+*Use case:
+1.To create single DB connection which can be shared by multiple classes.
+2.Single Configuration/Error manager for a application.
+3.Logging module for a application.
+
+Examples:
+java.lang.Runtime => Every Java application has a single instance of class Runtime
+that allows the application to interface with the environment in which the application is running.
+
+Resource :
+https://www.geeksforgeeks.org/singleton-design-pattern-introduction/#:~:text=It%20is%20used%20where%20only,and%20thread%20pool%2C%20database%20connections.

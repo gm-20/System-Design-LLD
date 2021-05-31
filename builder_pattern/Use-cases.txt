@@ -1,0 +1,22 @@
+*This is type of Creational Design => Used for Object Creation.
+
+*Normal Class:
+1.No setter for attributes
+2.No public constructor : As this class Object will be created by its BuilderClass.
+3.Private constructor with BuilderClass as argument
+
+*Builder Class:
+1.Static nested class
+2.Setter for attributes
+3.Public constructor
+4.build() method to create Normal Class Object
+
+
+*Use-case:
+1.When we have to create a complex object , but not all attributes are neccesary.i.e Don't want to
+ burden the constructor with a lot of attributes.
+
+
+Examples:
+1.java.lang.StringBuilder#append() (unsynchronized)
+2.java.lang.StringBuffer#append() (synchronized)

@@ -1,0 +1,12 @@
+*It's a structural design pattern =>  Used to organise Classes/Interface/Objects.
+
+*When we need to apply some common functionality to multiple Objects , we use Composite Design Pattern.
+
+*It consist of 3 Components:
+1.Base component (Interface)                      ----> Common funtionality
+2.Leaf component (Class implement Base component) ----> Classes that need to implement common functionality
+3.Composite (Class implement Base component)      ----> Logic to implement common functionality to Classes. 
+
+
+*Use case:
+1.Salary increment in a Organisation.
